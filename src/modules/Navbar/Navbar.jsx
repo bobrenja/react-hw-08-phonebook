@@ -1,4 +1,5 @@
 import { NavLink } from 'react-router-dom';
+import styles from './navbar.module.scss';
 import items from './items';
 
 const Navbar = () => {
@@ -8,7 +9,7 @@ const Navbar = () => {
     </li>
   ));
 
-  return <u>{element}</u>;
+  return <ul className={styles.list}>{element}</ul>;
 };
 
 export default Navbar;

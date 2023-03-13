@@ -4,7 +4,7 @@ import Navbar from "./Navbar/Navbar";
 export const App = () => {
 
   
-  return <div>React homework template
+  return <div>
     <BrowserRouter>
     <Navbar/>
     <UserRoutes/>
